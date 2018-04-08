@@ -1,0 +1,2 @@
+# station_sync
+Leimauspäätteen tietokannan synkronointi. Tämä tapahtuu PHP:llä tietyn väliajoin ja on tarkoitettu paikalliseen verkkoon, jossa kukin leimausasema on kytköksissä verkon tietokantapalvelimeen. Palvelimella oleva vastaavainen skripti pitää kirjaa siitä, milloin kyseinen leimausasema on viimeksi ollut yhteydessä, mikäli yhteys katkeaa ja tässä tapauksessa yhteyden palatessa kaikki viimeisimmät leimat haetaan.
